@@ -1,0 +1,39 @@
+{
+	"name":"cliffparnitzky/tiny-mce-text-color",
+	"description":"Special TinyMCE plugin that adds the forecolor/backcolor button controls which enables you to pick colors from a color picker and apply these to text.",
+	"keywords":["contao","tinymce","tiny editor","tinymce plugin","text color","tinymce4"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/cliffparnitzky/TinyMceTextColor/issues",
+		"source":"https://github.com/cliffparnitzky/TinyMceTextColor"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.3.0,<3.5",
+		"contao-community-alliance/composer-installer":"*",
+		"cliffparnitzky/tiny-mce-plugin-loader":">=2.0.0"
+	},
+	"conflict": {
+		"contao/core":"3.4.0,3.4.1,3.4.2"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"assets/tinymce4/plugins/textcolor":"assets/tinymce4/plugins/textcolor",
+				"system/modules/TinyMceTextColor":"system/modules/TinyMceTextColor"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
