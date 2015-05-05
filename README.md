@@ -41,3 +41,25 @@ Screenshot
 ----------
 
 ![Screenshot](screenshot.jpg)
+
+
+Additional information
+----------------------
+
+### Special notes
+
+To use custom defined colors, the plugin [[TinyMceColorpicker]](https://github.com/cliffparnitzky/TinyMceColorpicker) must also be installed.
+
+### Information in the wiki
+
+#### Create a new ...
+
+* [Creating a new plugin](wiki/Creating-a-new-plugin)
+* [Creating a new setup](wiki/Creating-a-new-setup)
+
+#### Installation hints
+* [Install manually](wiki/Install-manually)
+
+#### Bug report hints
+
+* [Report a bug](wiki/Report-a-bug)
